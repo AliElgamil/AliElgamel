@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base target="_blank" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ali Elgamel</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- /Google Fonts -->
+
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <!-- /Bootstrap File -->
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="css/boxicons.min.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    /> -->
+    <link rel="stylesheet" href="css/devicon.min.css" />
+    <!-- /Font Icon -->
+
+    <!-- Style File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- /Style File -->
+
+    <!-- Js File -->
+    <script
+      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+      defer
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script type="text/javascript"></script>
+    <script src="js/form.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <!-- /Js File -->
+  </head>
+
+  <body>
+    <div class="loader">
+      <lottie-player
+        src="https://assets8.lottiefiles.com/packages/lf20_umbqybc6.json"
+        background="transparent"
+        speed="1"
+        style="width: 150px; height: 150px"
+        loop
+        autoplay
+      ></lottie-player>
+    </div>
+    <div class="page_content d-grid">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar_content">
+          <div class="sidebar_image">
+            <img src="images/user-1.jpg" class="img-fluid" />
+          </div>
+          <!-- <h3 class="sidebar_name text-center">Ali Elgamel</h3> -->
+          <ul
+            class="list-unstyled social-list d-flex gap-3 justify-content-center"
+          >
+            <li class="social-item">
+              <a
+                href="https://github.com/AliElgamil"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="bx bxl-github"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/ali-elgamel-7b8052167/"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="bx bxl-linkedin"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://api.whatsapp.com/send?phone=201016930879s"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="bx bxl-whatsapp"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/ali.elgamel.7982"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="bx bxl-facebook"></i>
+              </a>
+            </li>
+          </ul>
+          <ul class="list-unstyled sidebar_links text-capitalize">
+            <li class="item active">
+              <a href="#home" class="d-grid scroll_btn">
+                <i class="bx bx-home text-center"></i>
+                home
+              </a>
+            </li>
+            <li class="item">
+              <a href="#about" class="d-grid scroll_btn">
+                <i class="bx bx-user text-center"></i>
+                about
+              </a>
+            </li>
+            <li class="item">
+              <a href="#portfolio" class="d-grid scroll_btn">
+                <i class="bx bx-code-alt text-center"></i>
+                portfolio
+              </a>
+            </li>
+            <li class="item">
+              <a href="#contact" class="d-grid scroll_btn">
+                <i class="bx bx-envelope text-center"></i>
+                contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <!-- Sidebar -->
+
+      <!-- Home Section -->
+      <header
+        class="home d-flex align-items-center justify-content-center"
+        id="home"
+      >
+        <div class="home_content text-capitalize"></div>
+      </header>
+      <!-- /Home Section -->
+
+      <!-- Content -->
+      <div class="content">
+        <!-- About Section -->
+        <section class="about" id="about">
+          <div class="container-fluid">
+            <div class="about_heading">
+              <h2
+                class="about_title position-relative title_section text-capitalize"
+              >
+                About
+              </h2>
+              <p class="summary"></p>
+            </div>
+            <div class="d-grid about-container">
+              <!-- Grid Col -->
+              <div class="gird-col">
+                <div class="about_info">
+                  <h3
+                    class="about_info-title text-capitalize heading-color mb-3"
+                  >
+                    personal information
+                  </h3>
+                  <!-- Information list -->
+                  <ul
+                    class="about_info-list list-unstyled text-capitalize d-grid animate"
+                  ></ul>
+                  <!-- /Information list -->
+                </div>
+              </div>
+              <!-- Grid Col -->
+
+              <!-- Grid Col -->
+              <div class="gird-col">
+                <div class="about_info-skills">
+                  <h3
+                    class="about_info-title text-capitalize heading-color mb-3"
+                  >
+                    skills
+                  </h3>
+                  <!-- Skills list -->
+                  <div class="d-flex flex-column">
+                    <!-- Row List -->
+                    <div
+                      class="d-flex flex-wrap list-skills text-capitalize text-center w-100"
+                    ></div>
+                    <!-- Row List -->
+                  </div>
+                  <!-- /Skills list -->
+                </div>
+              </div>
+              <!-- Grid Col -->
+
+              <!-- Grid Col -->
+              <div class="gird-col">
+                <div class="about_info-cer">
+                  <h3
+                    class="about_info-title text-capitalize heading-color mb-3"
+                  >
+                    education
+                  </h3>
+                  <!-- education list -->
+                  <ul class="list-unstyled list-cer edu-list animate"></ul>
+                  <!-- /education list -->
+
+                  <h3
+                    class="about_info-title text-capitalize heading-color mb-3"
+                  >
+                    courses
+                  </h3>
+                  <!-- courses list -->
+                  <ul class="list-unstyled list-cer cou-list animate"></ul>
+                  <!-- /courses list -->
+                </div>
+              </div>
+              <!-- Grid Col -->
+
+              <!-- Grid Col -->
+              <div class="gird-col">
+                <div class="about_info-cer">
+                  <h3
+                    class="about_info-title text-capitalize heading-color mb-3"
+                  >
+                    Experience
+                  </h3>
+                  <!-- Experience list -->
+                  <ul class="list-unstyled list-cer exp-list animate"></ul>
+                  <!-- /Experience list -->
+                </div>
+              </div>
+              <!-- Grid Col -->
+            </div>
+          </div>
+        </section>
+        <!-- /About Section -->
+
+        <!-- portfolio Section -->
+        <section id="portfolio" class="portfolio">
+          <div class="container-fluid">
+            <div class="about_heading">
+              <h2
+                class="about_title position-relative title_section text-capitalize"
+              >
+                portfolio
+              </h2>
+
+              <div class="project-container d-grid"></div>
+            </div>
+          </div>
+        </section>
+        <!-- /portfolio Section -->
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+          <h2
+            class="about_title position-relative title_section text-capitalize"
+          >
+            Contact
+          </h2>
+
+          <div class="row gap-3 gap-lg-0">
+            <div class="col-lg-6">
+              <div class="image-contact mx-auto">
+                <lottie-player
+                  src="https://assets8.lottiefiles.com/packages/lf20_vj9gpr2l.json"
+                  background="transparent"
+                  speed="1"
+                  style="max-width: 100%; max-height: 100%"
+                  loop
+                  autoplay
+                ></lottie-player>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <form
+                action=""
+                method="post"
+                class="contact_form"
+                id="contact_form"
+              >
+                <div class="input_container position-relative">
+                  <input
+                    type="text"
+                    name="user_name"
+                    placeholder="Your Name"
+                    class="input_form username"
+                    autocomplete="off"
+                  />
+                  <span class="line_input"></span>
+                </div>
+
+                <div class="input_container position-relative">
+                  <input
+                    type="email"
+                    name="user_email"
+                    placeholder="Your Email"
+                    class="input_form email"
+                    autocomplete="off"
+                  />
+                  <span class="line_input"></span>
+                </div>
+
+                <div class="textarea_container position-relative">
+                  <textarea
+                    name="message"
+                    placeholder="Your Message"
+                    class="input_form message"
+                  ></textarea>
+                  <span class="line_input"></span>
+                </div>
+                <button class="btn_form submit" type="submit">
+                  Send <i class="bx bx-send"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <!-- /Contact Section -->
+
+        <!-- Footer Section -->
+        <footer class="footer text-center p-4">
+          &copy;Copyright Designed by AliElgamel
+        </footer>
+        <!-- Footer Section -->
+      </div>
+      <!-- Content -->
+
+      <!-- button Group -->
+      <div
+        class="button_group position-fixed top-0 d-flex flex-column justify-content-between p-3 h-100"
+      >
+        <div>
+          <a href="#sidebar" class="sidebar_btn sidebar_btn-xl"
+            ><i class="bx bx-arrow-back"></i
+          ></a>
+          <a href="#sidebar" class="sidebar_btn"><i class="bx bx-menu"></i></a>
+        </div>
+        <div>
+          <a href="#home" class="home_btn scroll_btn"
+            ><i class="bx bx-chevron-up"></i
+          ></a>
+        </div>
+      </div>
+      <!-- button Group -->
+    </div>
+  </body>
+</html>

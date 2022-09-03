@@ -1,0 +1,138 @@
+{
+  "name": "Ali Elgamel",
+  "positions": ["Front End Developer", "Freelancer"],
+  "urlResume": "pdf/ali_elgamel.pdf",
+  "about": {
+    "summary": "Passionate about creating and optimizing interactive, user friendly, feature-rich websites and web applications, Problem solving skills, strong attention to details in order to deliver original and efficient web solutions, provide technical knowledge and expertise",
+    "birthday": "1999-9-23",
+    "address": "Alexandria - Egypt",
+    "phone": "+201016930879",
+    "email": "alimohamed9788@gmail.com",
+    "degree": "Bachelor",
+    "freelance": "Not Available"
+  },
+  "skills": [
+    {
+      "name": "html",
+      "element": "<i class='devicon-html5-plain colored'></i>"
+    },
+    {
+      "name": "css",
+      "element": "<i class='devicon-css3-plain colored'></i>"
+    },
+    {
+      "name": "javascript",
+      "element": "<i class='devicon-javascript-plain colored'></i>"
+    },
+    {
+      "name": "pug",
+      "element": "<i class='bx bxs-pug bx-fw main-color'><img src='fonts/pug-icon.svg' alt='' class='img-fluid'/></i>"
+    },
+    {
+      "name": "bootstrap",
+      "element": "<i class='devicon-bootstrap-plain colored'></i>"
+    },
+    {
+      "name": "sass",
+      "element": "<i class='devicon-sass-original colored'></i>"
+    },
+    {
+      "name": "jquery",
+      "element": "<i class='devicon-jquery-plain colored'></i>"
+    },
+    {
+      "name": "react",
+      "element": "<i class='devicon-react-original colored'></i>"
+    },
+    {
+      "name": "ajax",
+      "element": "<i class='bx bxs-pug bx-fw main-color'><img src='fonts/ajax.svg' alt='' class='img-fluid'/></i>"
+    },
+    {
+      "name": "json",
+      "element": "<i class='bx bxs-pug bx-fw main-color'><img src='fonts/json.svg' alt='' class='img-fluid'/></i>"
+    },
+    {
+      "name": "gulp",
+      "element": "<i class='devicon-gulp-plain colored'></i>"
+    }
+  ],
+  "eduction": [
+    {
+      "certificate": "B.Sc. in Management Information Systems (MIS)",
+      "placeName": "Abukir High Institutes,",
+      "address": "Alexandria",
+      "start": 2017,
+      "end": 2021
+    }
+  ],
+  "courses": [
+    {
+      "certificate": "Diploma - Front-End Developer",
+      "placeName": "Reload Acdamy,",
+      "address": "Alexandria",
+      "start": 2020,
+      "end": 2021
+    }
+  ],
+  "experience": [
+    {
+      "companyName": "Sphinx",
+      "position": "Front-End Developer",
+      "address": "Alexandria",
+      "detailsPosition": ["Create and edit educational content"],
+      "start": 2022,
+      "end": "Present"
+    }
+  ],
+  "projects": [
+    {
+      "projectName": "gradation project",
+      "url": "https://graduation-project-main.vercel.app/",
+      "githubUrl": "https://github.com/AliElgamil/Graduation-Project-main",
+      "urlImage": "images/project-3.png",
+      "skills": ["html", "css", "javascript", "ajax", "json"]
+    },
+    {
+      "projectName": "bankist",
+      "url": "https://bankist-s.vercel.app/",
+      "githubUrl": "https://github.com/AliElgamil/Bankist-s",
+      "urlImage": "images/project-2.png",
+      "skills": ["html", "css", "javascript"]
+    },
+    {
+      "projectName": "mapty",
+      "url": "https://mapty-sepia.vercel.app/",
+      "githubUrl": "https://github.com/AliElgamil/Mapty",
+      "urlImage": "images/project-4.png",
+      "skills": ["html", "css", "javascript"]
+    },
+    {
+      "projectName": "crud app",
+      "url": "https://crud-react-app-orcin.vercel.app/",
+      "githubUrl": "https://github.com/AliElgamil/Crud-React-App",
+      "urlImage": "images/project-5.png",
+      "skills": ["react"]
+    },
+    {
+      "projectName": "weather app",
+      "url": "http://drarsanyattala.com/",
+      "urlImage": "images/project-6.png",
+      "skills": ["react"]
+    },
+    {
+      "projectName": "weather app",
+      "url": "https://weather-app-sandy-eight.vercel.app/",
+      "githubUrl": "https://github.com/AliElgamil/weather-app",
+      "urlImage": "images/project-7.png",
+      "skills": ["html", "css", "javascript"]
+    },
+    {
+      "projectName": "evelo landing page",
+      "url": "https://evolo-landing-page.vercel.app/",
+      "githubUrl": "https://github.com/AliElgamil/Evolo-landing-page",
+      "urlImage": "images/project-1.png",
+      "skills": ["pug", "sass", "bootstrap", "jquery", "gulp"]
+    }
+  ]
+}
