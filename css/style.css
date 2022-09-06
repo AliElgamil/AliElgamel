@@ -90,91 +90,99 @@ section:not(.home) {
 }
 
 .color-html {
-  color: #e44d26;
+  color: #e44d26 !important;
 }
 
 .color-css {
-  color: #3d8fc6;
+  color: #3d8fc6 !important;
 }
 
 .color-javascript {
-  color: #f0db4f;
+  color: #f0db4f !important;
 }
 
 .color-bootstrap {
-  color: #563d7c;
+  color: #563d7c !important;
 }
 
 .color-sass {
-  color: #cc6699;
+  color: #cc6699 !important;
 }
 
 .color-jquery {
-  color: #0769ad;
+  color: #0769ad !important;
 }
 
 .color-react {
-  color: #61dbfb;
+  color: #61dbfb !important;
 }
 
 .color-gulp {
-  color: #db4446;
+  color: #db4446 !important;
 }
 
 .color-pug {
-  color: #8c4424;
+  color: #8c4424 !important;
 }
 
 .color-ajax {
-  color: #1d82c5;
+  color: #1d82c5 !important;
 }
 
 .color-json {
-  color: #7c7c7c;
+  color: #7c7c7c !important;
+}
+
+.color-firebase {
+  color: #f58220 !important;
 }
 
 .bg-html {
-  background-color: #e44d26;
+  background-color: #e44d26 !important;
 }
 
 .bg-css {
-  background-color: #3d8fc6;
+  background-color: #3d8fc6 !important;
 }
 
 .bg-javascript {
-  background-color: #f0db4f;
+  background-color: #f0db4f !important;
 }
 
 .bg-bootstrap {
-  background-color: #563d7c;
+  background-color: #563d7c !important;
 }
 
 .bg-sass {
-  background-color: #cc6699;
+  background-color: #cc6699 !important;
 }
 
 .bg-jquery {
-  background-color: #0769ad;
+  background-color: #0769ad !important;
 }
 
 .bg-react {
-  background-color: #61dbfb;
+  background-color: #61dbfb !important;
 }
 
 .bg-gulp {
-  background-color: #db4446;
+  background-color: #db4446 !important;
 }
 
 .bg-pug {
-  background-color: #8c4424;
+  background-color: #8c4424 !important;
 }
 
 .bg-ajax {
-  background-color: #1d82c5;
+  background-color: #1d82c5 !important;
 }
 
 .bg-json {
-  background-color: #7c7c7c;
+  background-color: #7c7c7c !important;
+}
+
+.bg-firebase {
+  background-color: #f58220 !important;
 }
 /* /Global Style */
 
@@ -623,6 +631,7 @@ section:not(.home) {
   border: 2px solid;
   border-radius: 1rem;
   font-size: 0.8rem;
+  color: var(--main-color);
 }
 
 .list_links-pro {
@@ -641,6 +650,7 @@ section:not(.home) {
   opacity: 0;
   transform: translateY(-100%);
   transition: opacity var(--transition-time), transform var(--transition-time);
+  text-transform: capitalize;
 }
 
 .list_links-pro .list-item .icon {

@@ -55,6 +55,10 @@
     {
       "name": "gulp",
       "element": "<i class='devicon-gulp-plain colored'></i>"
+    },
+    {
+      "name": "firebase",
+      "element": "<i class='devicon-firebase-plain colored'></i>"
     }
   ],
   "eduction": [
@@ -94,31 +98,11 @@
       "skills": ["html", "css", "javascript", "ajax", "json"]
     },
     {
-      "projectName": "bankist",
-      "url": "https://bankist-s.vercel.app/",
-      "githubUrl": "https://github.com/AliElgamil/Bankist-s",
-      "urlImage": "images/project-2.png",
-      "skills": ["html", "css", "javascript"]
-    },
-    {
-      "projectName": "mapty",
-      "url": "https://mapty-sepia.vercel.app/",
-      "githubUrl": "https://github.com/AliElgamil/Mapty",
-      "urlImage": "images/project-4.png",
-      "skills": ["html", "css", "javascript"]
-    },
-    {
       "projectName": "crud app",
       "url": "https://crud-react-app-orcin.vercel.app/",
       "githubUrl": "https://github.com/AliElgamil/Crud-React-App",
       "urlImage": "images/project-5.png",
       "skills": ["react"]
-    },
-    {
-      "projectName": "weather app",
-      "url": "http://drarsanyattala.com/",
-      "urlImage": "images/project-6.png",
-      "skills": ["html", "css", "javascript"]
     },
     {
       "projectName": "weather app",
@@ -128,11 +112,24 @@
       "skills": ["html", "css", "javascript"]
     },
     {
+      "projectName": "dr arsany",
+      "url": "http://drarsanyattala.com/",
+      "urlImage": "images/project-6.png",
+      "skills": ["html", "css", "javascript"]
+    },
+    {
       "projectName": "evelo landing page",
       "url": "https://evolo-landing-page.vercel.app/",
       "githubUrl": "https://github.com/AliElgamil/Evolo-landing-page",
       "urlImage": "images/project-1.png",
       "skills": ["pug", "sass", "bootstrap", "jquery", "gulp"]
+    },
+    {
+      "projectName": "netflix clone",
+      "url": "https://netflix-clone-alielgamel.vercel.app/",
+      "githubUrl": "https://github.com/AliElgamil/Netflix-Clone",
+      "urlImage": "images/project-8.png",
+      "skills": ["react", "firebase"]
     }
   ]
 }
