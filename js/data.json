@@ -59,6 +59,10 @@
     {
       "name": "firebase",
       "element": "<i class='devicon-firebase-plain colored'></i>"
+    },
+    {
+      "name": "redux toolkit",
+      "element": "<i class='devicon-redux-original colored'></i>"
     }
   ],
   "eduction": [
@@ -130,6 +134,13 @@
       "githubUrl": "https://github.com/AliElgamil/Netflix-Clone",
       "urlImage": "images/project-8.png",
       "skills": ["react", "firebase"]
+    },
+    {
+      "projectName": "food delivery",
+      "url": "https://food-delivery-app-liard.vercel.app/",
+      "githubUrl": "https://github.com/AliElgamil/Food-delivery-app",
+      "urlImage": "images/project-9.png",
+      "skills": ["react", "redux toolkit", "bootstrap", "firebase"]
     }
   ]
 }
