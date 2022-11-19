@@ -88,9 +88,33 @@
       "companyName": "Sphinx",
       "position": "Front-End Developer",
       "address": "Alexandria",
-      "detailsPosition": ["Create and edit educational content"],
+      "detailsPosition": [
+        "Make online interactive games to help kids to learn.",
+        "Change the education in (kuwait, Egypt, Greece and other) into online-education. Make online interactive stories",
+        "Create exercises like (Drag drop , Matching, Click and place)"
+      ],
       "start": 2022,
       "end": "Present"
+    },
+    {
+      "companyName": "Freelancer",
+      "position": "Front-End Developer",
+      "detailsPosition": [
+        "Development of the site and dashbord form the Jazan Government, Saudi Arabia",
+        "Dealt with HTML, CSS, Bootstrap / JavaScript / React / Hooks / Rest API"
+      ],
+      "start": "06/2022",
+      "end": "08/2022"
+    },
+    {
+      "companyName": "Freelancer",
+      "position": "Front-End Developer",
+      "detailsPosition": [
+        "Development of the site Dental clinic for doctor arsany attala",
+        "Dealt with HTML / CSS / JavaScript"
+      ],
+      "start": "03/2022",
+      "end": "03/2022"
     }
   ],
   "projects": [

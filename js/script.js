@@ -329,7 +329,7 @@ animate.forEach((pro) => {
           ${exp.companyName}
         </h4>
         <h5 class="cer-subtitle fw-bold text-capitalize">
-          ${exp.position}, ${exp.address}
+          ${exp.position}${!exp.address ? "" : `, ${exp?.address}`}
         </h5>
         ${desList}
         <p class="cer-date mb-0 lead">${exp.start} - ${exp.end}</p>
@@ -337,7 +337,7 @@ animate.forEach((pro) => {
         `;
       document
         .querySelector(".exp-list")
-        .insertAdjacentHTML("afterbegin", expContent);
+        .insertAdjacentHTML("beforeend", expContent);
     });
   })();
 
