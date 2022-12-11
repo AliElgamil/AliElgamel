@@ -85,7 +85,7 @@ const obsSkills = (entries) => {
 
 const observerSkills = new IntersectionObserver(obsSkills, {
   root: null,
-  threshold: 0.5,
+  threshold: 0.3,
 });
 
 SkillsItem.forEach((skill) => {
@@ -106,7 +106,7 @@ const obsAnimate = (entries) => {
 
 const observerAnimate = new IntersectionObserver(obsAnimate, {
   root: null,
-  threshold: 0.5,
+  threshold: 0.3,
 });
 
 animate.forEach((pro) => {
