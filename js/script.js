@@ -76,10 +76,11 @@ const obsSkills = (entries) => {
         skill.classList.add("animated-skills");
       }, index * 100);
     });
-  else
-    [...entry.target.children].forEach((skill) => {
-      skill.classList.remove("animated-skills");
-    });
+  observer.unobserve(entry.target);
+  // else
+  //   [...entry.target.children].forEach((skill) => {
+  //     skill.classList.remove("animated-skills");
+  //   });
 };
 
 const observerSkills = new IntersectionObserver(obsSkills, {
@@ -98,7 +99,9 @@ const obsAnimate = (entries) => {
   const [entry] = entries;
 
   if (entry.isIntersecting) entry.target.classList.add("animated");
-  else entry.target.classList.remove("animated");
+
+  observer.unobserve(entry.target);
+  // else entry.target.classList.remove("animated");
 };
 
 const observerAnimate = new IntersectionObserver(obsAnimate, {

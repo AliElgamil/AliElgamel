@@ -45,24 +45,40 @@
       "element": "<i class='devicon-react-original colored'></i>"
     },
     {
-      "name": "ajax",
-      "element": "<i class='bx bxs-pug bx-fw main-color'><img src='fonts/ajax.svg' alt='' class='img-fluid'/></i>"
+      "name": "redux toolkit",
+      "element": "<i class='devicon-redux-original colored'></i>"
     },
     {
-      "name": "json",
-      "element": "<i class='bx bxs-pug bx-fw main-color'><img src='fonts/json.svg' alt='' class='img-fluid'/></i>"
+      "name": "nextjs",
+      "element": "<i class='devicon-nextjs-original-wordmark colored'></i>"
+    },
+    {
+      "name": "tailwind",
+      "element": "<i class='devicon-tailwindcss-plain colored'></i>"
+    },
+    {
+      "name": "typescript",
+      "element": "<i class='devicon-typescript-plain colored'></i>"
     },
     {
       "name": "gulp",
       "element": "<i class='devicon-gulp-plain colored'></i>"
     },
     {
+      "name": "framer motion",
+      "element": "<i class='bx bxs-pug bx-fw main-color'><img src='fonts/framer.svg' alt='' class='img-fluid'/></i>"
+    },
+    {
       "name": "firebase",
       "element": "<i class='devicon-firebase-plain colored'></i>"
     },
     {
-      "name": "redux toolkit",
-      "element": "<i class='devicon-redux-original colored'></i>"
+      "name": "ajax",
+      "element": "<i class='bx bxs-pug bx-fw main-color'><img src='fonts/ajax.svg' alt='' class='img-fluid'/></i>"
+    },
+    {
+      "name": "json",
+      "element": "<i class='bx bxs-pug bx-fw main-color'><img src='fonts/json.svg' alt='' class='img-fluid'/></i>"
     }
   ],
   "eduction": [
@@ -165,6 +181,13 @@
       "githubUrl": "https://github.com/AliElgamil/Food-delivery-app",
       "urlImage": "images/project-9.png",
       "skills": ["react", "redux toolkit", "bootstrap", "firebase"]
+    },
+    {
+      "projectName": "metaverse landingpage",
+      "url": "https://meta-versus-tau.vercel.app/",
+      "githubUrl": "https://github.com/AliElgamil/metaVersus",
+      "urlImage": "images/project-10.png",
+      "skills": ["nextjs", "framer motion", "tailwind"]
     }
   ]
 }

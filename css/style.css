@@ -141,6 +141,22 @@ section:not(.home) {
   color: #764abc !important;
 }
 
+.color-tailwind {
+  color: #2298bd !important;
+}
+
+.color-nextjs {
+  color: #2d2d2d !important;
+}
+
+.color-typescript {
+  color: #007acc !important;
+}
+
+.color-framer {
+  color: #24a8ff !important;
+}
+
 .bg-html {
   background-color: #e44d26 !important;
 }
@@ -191,6 +207,22 @@ section:not(.home) {
 
 .bg-redux {
   background-color: #764abc !important;
+}
+
+.bg-tailwind {
+  background-color: #2298bd !important;
+}
+
+.bg-nextjs {
+  background-color: #2d2d2d !important;
+}
+
+.bg-typescript {
+  background-color: #007acc !important;
+}
+
+.bg-framer {
+  background-color: #24a8ff !important;
 }
 /* /Global Style */
 
@@ -558,8 +590,9 @@ section:not(.home) {
 }
 
 .des-list .des-item {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: calc(10px + 0.5rem) 1fr;
+  align-items: flex-start;
 }
 
 .des-list .des-item::before {
@@ -569,6 +602,7 @@ section:not(.home) {
   width: 10px;
   background-color: var(--main-color);
   margin-right: 0.5rem;
+  transform: translateY(10px) translateZ(0);
 }
 
 /* ====== About certificate style =========== */
@@ -640,6 +674,7 @@ section:not(.home) {
   border-radius: 1rem;
   font-size: 0.8rem;
   color: var(--main-color);
+  text-transform: capitalize;
 }
 
 .list_links-pro {
